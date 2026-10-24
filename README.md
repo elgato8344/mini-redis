@@ -63,7 +63,7 @@ The entire server lives in a single Python file (~2,000 lines), accompanied by a
                              │              `mini_redis.py`             │
                              │                                          │
 [ Client: redis-cli / REPL ] │ ┌────────────────────────────────────┐   │
-              │              │ │ asyncio TCP Server Loop            │   │
+              │              │ │      asyncio TCP Server Loop       │   │
         RESP2 │              │ └──────────────────┬─────────────────┘   │
               ▼              │                    │                     │
 ┌──────────────────────────┐ │                    ▼                     │
