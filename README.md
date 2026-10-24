@@ -4,7 +4,7 @@
 
 `mini-redis` is a clean, readable implementation of an in-memory, key-value database speaking the Redis Serialization Protocol (RESP2). It pairs an in-memory data store with an append-only **Write-Ahead Log (WAL)** featuring CRC32 checksums, background group commits, crash recovery, atomic log compaction, dual-tier key expiration, LRU eviction, multi-key transactions with optimistic concurrency control (`WATCH`), and pattern-matching Pub/Sub.
 
-The entire server lives in a single Python file (~1,100 lines), accompanied by a standalone terminal REPL client (`mini_cli.py`). It requires **zero third-party dependencies**.
+The entire server lives in a single Python file (~2,000 lines), accompanied by a standalone terminal REPL client (`mini_cli.py`). It requires **zero third-party dependencies**.
 
 > **Disclaimer**: `mini-redis` is designed for educational exploration, systems architecture study, interview preparation, and local testing. It is **not** a production drop-in replacement for Redis.
 
